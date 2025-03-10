@@ -30,6 +30,7 @@
             <div class="mt-4">
                 <input type="submit" value="submit" class="btn btn-danger">
             </div>
+            <h1> Welcome To Workopidia Website </h1>
     </form>
 </x-layout>
 
