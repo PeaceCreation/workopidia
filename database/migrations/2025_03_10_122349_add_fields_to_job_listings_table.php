@@ -22,6 +22,7 @@ return new class extends Migration
             $table->enum('job_type', ['full-time', 'Contract', 'Temporary', 'Intership', 'Volunteer', 'On-Call'])->default('Full-Time');
             $table->boolean('remote')->default(false);
             $table->string('requirements')->nullable();
+            $table->text('benefits')->nullable();
             $table->string('address')->nullable();
             $table->string('city');
             $table->string('state');
